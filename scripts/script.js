@@ -26,4 +26,6 @@ const add_Task = () => {
     taskList.appendChild(newTask);
   
     taskInput.value = "Введите свою задачу";
+
+    
   };

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/login.js"></script>
+
+    
+    <title>Ro-Do</title>
+
+</head>
+
+<body>
+
+    <div class="box">
+
+       <div class="container">
+
+        <div class="header">
+
+            <img src="images/favicon.png" alt="" class="logotype">
+            <h1>Ro-Do</h1>
+            <a class="username" id="username" onclick="login()">Имя</a>
+
+        </div>
+
+        <div class="tasks" id="taskList">
+
+
+
+        </div>
+
+        <div class="form">
+
+            <input type="text" id="taskInput" value="текст по умолчанию"/>
+            <button onclick="add_Task()">Добавить задачу</button>
+
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
